@@ -58,6 +58,7 @@ def read_questions_from_pdf(file_path):
             questions.extend(page.extract_text().strip().split('\n'))
     return [question.strip() for question in questions if question.strip()]
 
+# To use as a health check endpoint
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
