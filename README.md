@@ -14,19 +14,19 @@ Make sure you have Python installed on your system. You can download it from [py
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/fastapi-question-answering.git
+    git clone https://github.com/Hackathor43/Zania_Chat_bot.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd fastapi-question-answering
+    cd Zania_Chat_bot
     ```
 
 3. Install the required dependencies:
 
     ```bash
-    pip install -r requirements.txt
+    pip install "required modules"
     ```
 
 ### Usage
@@ -42,7 +42,7 @@ Make sure you have Python installed on your system. You can download it from [py
 2. Run the FastAPI application:
 
     ```bash
-    python main.py
+     python -m uvicorn main:app --reload
     ```
 
     The application will be accessible at `http://127.0.0.1:8000`.
